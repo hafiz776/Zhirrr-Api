@@ -112,7 +112,7 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'apikey invalid, gak punya apikey? chat gw aja yaaa di wa.me/6283898698875 , key nya gratis kok gan, jadi santuyy ajaa'
+        message: 'apikeynya invalid, salin link di atas mank buat apikey nya chat aja di wa wa.me/6283141727903'
     },
     invalidlink: {
         status: false,
