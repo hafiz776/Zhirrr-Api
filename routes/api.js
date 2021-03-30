@@ -8,7 +8,7 @@ var の ＭｅＩｋｙ あ = db.get("の ＭｅＩｋｙ あ");
 	console.log('')
 }
 
-var creatorList = ['@の ＭｅＩｋｙ あr','@zhirrrgans','@zhirr_ajalah','@zahiranjay', '@zahirganssss','@zhirrganteng','@の ＭｅＩｋｙ あgantengg'];
+var creatorList = ['@の ＭｅＩｋｙ あr','@ikyygans','@ikyy_ads','@ikyanjay', '@ikyyganssss','@ikyyganteng','@の ＭｅＩｋｙ あgantengg'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 
 
@@ -38,32 +38,32 @@ var cookie = "HSID=A7EDzLn3kae2B1Njb;SSID=AheuwUjMojTWvA5GN;APISID=cgfXh13rQbb4z
 loghandler = {
     notparam: {
         status: false,
-        creator: `${creator}`,
+        creator: `@ikyy_ads`,
         code: 406,
         message: 'masukan parameter apikey',
         getApikey: 'gak punya apikey? chat gw aja yaaa di wa.me/6283141727903 , key nya gratis kok gan, jadi santuyy ajaa'
     },
     notkey: {
         status: false,
-        creator: `${creator}`,
+        creator: `@ikyy_ads`,
         code: 406,
         message: 'masukan parameter key'
     },
     noturl: {
         status: false,
-        creator: `${creator}`,
+        creator: `@ikyy_ads`,
         code: 406,
         message: 'masukan parameter url'
     },
     notkata: {
         status: false,
-        creator: `${creator}`,
+        creator: `@ikyy_ads`,
         code: 406,
         message: 'masukan parameter kata'
     },
     nottext: {
         status: false,
-        creator: `${creator}`,
+        creator: `@ikyy_ads`,
         code: 406,
         message: 'masukan parameter text'
     },
