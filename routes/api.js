@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')
 }
 
-var creatorList = ['@meiky','@ikyyads','@meikygans','@ikyganteng', '@meikyads','@ikyads','@ikyads'];
+var creatorList = ['@hafidzabdillh_','@ikyyads','@abdillahgans','@apitganteng', '@meabdillah','@ikyads','@ikyads'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 
 
@@ -40,7 +40,7 @@ loghandler = {
         creator: `${creator}`,
         code: 406,
         message: 'masukan parameter apikey',
-        getApikey: 'salin link di atas mank buat apikey nya chat aja di wa wa.me/6283141727903 '
+        getApikey: 'apikey chat gw di wa '
     },
     notkey: {
         status: false,
@@ -112,7 +112,7 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'apikeynya invalid, salin link di atas mank buat apikey nya chat aja di wa wa.me/6283141727903'
+        message: 'apikeynya invalid, salin link di atas mank buat apikey nya chat aja di wa'
     },
     invalidlink: {
         status: false,
@@ -223,7 +223,7 @@ router.get('/addapikey', (req, res, next) => {
 
     if (!apikey) return res.json(loghandler.notparam)
     if (!(status && apikeyInput && email && nomorhp && name && age && country && exp)) return res.json(loghandler.notAddApiKey)
-    if (apikey != 'meikyads') return res.json(loghandler.invalidKey)
+    if (apikey != 'meabdillah') return res.json(loghandler.invalidKey)
 
     try {
         zahirr.insert({
